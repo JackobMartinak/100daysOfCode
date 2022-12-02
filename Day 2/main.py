@@ -1,0 +1,5 @@
+bill = float(input("What's the bill? " ))
+people = int(input("How many people? "))
+tip = float(input("How much tip? "))
+split_with_tip = round((bill / people) * tip, 2)
+print(f"bill for each one: {split_with_tip}")
