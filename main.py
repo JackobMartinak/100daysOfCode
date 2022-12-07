@@ -62,3 +62,21 @@
 # # print(len(abcd))
 # # for n in range(0, len(list_of)):
 # # print(f"is {abcd[n]} in list_of: {abcd[n] in list_of}")
+
+s = "is2 Thi1s T4est 3a"
+
+
+def sort_string(s):
+    if s == "":
+        return s
+    n = s.split(" ")
+    sorted_sentence = []
+    count = 1
+    for word in n:
+        # if ord(count) in word:
+        pass
+        sorted_sentence.append(word)
+    print(sorted_sentence)
+
+
+sort_string(s)
